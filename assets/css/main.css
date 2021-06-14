@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.container {
+  max-width: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3rem 1rem;
+}
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #222;
+  background: none;
+}
+label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.btn {
+  width: 100%;
+  background-color: seagreen;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.result,
+.mmr-target {
+  font-weight: 600;
+}
+.note {
+  align-self: flex-end;
+  font-size: 14px;
+}
+.note span {
+  font-weight: 600;
+  font-style: italic;
+}
+@media (max-width: 576px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
