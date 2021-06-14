@@ -20,24 +20,24 @@ btn.addEventListener('click', () => {
             let krg = mmrTarget - 3499
             mmrTarget -= krg
             if(mmrTarget >= 2000 && mmrTarget < 3500) {
-                var total2 = (mmrTarget - 1999) / 7
+                var total2 = (mmrTarget - 1999) / 14
                 krg = mmrTarget - 1999
                 mmrTarget -= krg
                 if(mmrTarget < 2000) {
                     sisaMmr = mmrTarget - mmrAwal
                 }
             }
-            result = total1 + total2 + (sisaMmr / 20)
+            result = total1 + total2 + (sisaMmr / 25)
         } else if (mmrTarget >= 2000 && mmrTarget < 3500) {
-            var total1 = (mmrTarget - 1999) / 7
+            var total1 = (mmrTarget - 1999) / 14
             let krg = mmrTarget - 1999
             mmrTarget -= krg
             if(mmrTarget < 2000) {
                 sisaMmr = mmrTarget - mmrAwal
             }
-            result = total1 + (sisaMmr / 20)
+            result = total1 + (sisaMmr / 25)
         } else {
-            result = sisaMmr / 20
+            result = sisaMmr / 25
         }
     } else if (mmrAwal >= 2000 && mmrAwal < 3500) {
         if(mmrTarget >= 3500) {
@@ -47,9 +47,9 @@ btn.addEventListener('click', () => {
             if(mmrTarget >= 2000 && mmrTarget < 3500) {
                 sisaMmr = mmrTarget - mmrAwal
             }
-            result = total1 + (sisaMmr / 7)
+            result = total1 + (sisaMmr / 14)
         } else {
-            result = sisaMmr / 7
+            result = sisaMmr / 14
         }
     } else if (mmrAwal >= 3500) {
         result = sisaMmr / 1
