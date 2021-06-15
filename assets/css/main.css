@@ -100,6 +100,7 @@ label {
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
