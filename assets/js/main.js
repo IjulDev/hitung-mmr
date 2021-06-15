@@ -1,3 +1,7 @@
+window.addEventListener('load', () => {
+    fetch("https://api.countapi.xyz/update/ijuldev/01c71340-905b-44e0-bbc8-9d4839c8b688/?amount=1").then(res => res.json()).then(res => { console.log(res.value) });
+})
+
 const btn = document.querySelector('.btn')
 
 btn.addEventListener('click', () => {
