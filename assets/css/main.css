@@ -78,7 +78,7 @@ label {
   font-style: italic;
 }
 .sosmed {
-  position: absolute;
+  position: fixed;
   right: 5%;
   bottom: 10%;
   z-index: 100;
