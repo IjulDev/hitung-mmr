@@ -8,6 +8,10 @@
 ::after {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: #222;
+}
 body {
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -110,7 +114,7 @@ label {
   .sosmed {
     display: flex;
     align-items: center;
-    bottom: 3%;
+    bottom: 1rem;
   }
   .icon {
     margin-bottom: 0;
