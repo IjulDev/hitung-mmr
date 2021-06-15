@@ -1,8 +1,8 @@
 const btn = document.querySelector('.btn')
 
 btn.addEventListener('click', () => {
-    let mmrAwal = document.getElementById('mmrAwal').value
-    let mmrTarget = document.getElementById('mmrTarget').value
+    let mmrAwal = parseInt(document.getElementById('mmrAwal').value)
+    let mmrTarget = parseInt(document.getElementById('mmrTarget').value)
     const hasil = document.querySelector('.result')
 
     let sisaMmr = mmrTarget - mmrAwal
